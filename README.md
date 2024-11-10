@@ -2,7 +2,7 @@
 ## Installation
 First clone my repository
 ```
-git clone https://github.com/yourusername/your-repo-name.git
+git clone https://github.com/PeacockBen/GenAI-Stage-1-Task.git
 cd your-repo-name
 ```
 Next, create a virtual environment, and activate
