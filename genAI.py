@@ -328,10 +328,10 @@ def main():
     json_data = []
     for i in range(1, 11):
         data = {}
-        data["company_name"] = finaldata[i-1][0]
         data["company_indicator"] = finaldata[i-1][1]
-        data["body_text"] = translation(finaldata[i-1][2])
+        data["company_name"] = finaldata[i-1][0]
         data["purpose"] = translation(finaldata[i-1][3])
+        data["body_text"] = translation(finaldata[i-1][2])
         json_data.append(data)
 
     with open('data.json', 'w') as f:
@@ -341,4 +341,5 @@ def main():
         
 if __name__ == '__main__':
     main()
+
 
